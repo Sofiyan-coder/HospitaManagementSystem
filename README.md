@@ -1,8 +1,7 @@
 # Hospital Management System Web App
----
 
 ## Project Description
----
+
 The Hospital Management System Web App is a comprehensive platform designed to streamline interactions between patients and doctors. It provides a user-friendly interface with functionalities such as login and registration, efficient management of doctor-patient information, and a feature to book appointments with specialists. The project utilizes Angular for the front-end, Spring Boot for the back-end, and MySQL for the database. The system includes both manual and automated testing processes to ensure functionality, integration, and system stability.
 
 Features
@@ -12,14 +11,14 @@ Appointment booking system: Patients can easily view and book appointments with 
 Doctor and patient management: Efficient storage and retrieval of doctor-patient data.
 Restful APIs ensure seamless communication between the front-end (Angular) and back-end (Spring Boot).
 Testing: Functionality, Integration, and System Testing are implemented to guarantee stability and accuracy.
- ### ** Technologies Used **
-** Frontend: ** Angular
-** Backend: ** Spring Boot
-** Database: ** MySQL
-** Testing: ** Manual and Automated Testing
-** API Architecture: ** RESTful APIs
+ ### **Technologies Used** <br/>
+ **Frontend:** Angular <br/>
+ **Backend:** Spring Boot <br/>
+ **Database:** MySQL <br/>
+ **Testing** Manual and Automated Testing <br/>
+ **API Architecture:** RESTful APIs <br/>
 ## Installation and Setup Instructions
----
+
 >[!IMPORTANT]
 > Prerequisites:
 - Node.js (for Angular)
@@ -37,13 +36,13 @@ git clone <repository-url>
 Navigate to the backend project folder.
 bash
 Copy code:
-```
+```ruby
 cd hospital-management-backend
 ```
 Update the application.properties file with your MySQL credentials:
 properties
 Copy code:
-```
+```ruby
 spring.datasource.url=jdbc:mysql://localhost:3306/hospital_db
 spring.datasource.username=<your-username>
 spring.datasource.password=<your-password>
@@ -96,7 +95,7 @@ POST /api/appointments: Book an appointment.
 GET /api/doctors: List all doctors.
 GET /api/patients: List all patients.
 ## Testing
----
+
 Functionality Testing: Ensures all features work as expected.
 Integration Testing: Ensures seamless communication between frontend, backend, and database.
 System Testing: End-to-end testing of the entire system.
